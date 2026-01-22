@@ -12,6 +12,16 @@
 ## i dont care go download my crapware
 <img width="999" height="568" alt="intelligencepfp" src="https://github.com/user-attachments/assets/6f42fee5-e688-4043-a058-6aac1f18f510" />
 
+# for installation 
+## you need tetr.io plus
+
+## for V9 go here https://gitlab.com/UniQMG/tetrio-plus/-/releases
+<img width="1367" height="163" alt="v9" src="https://github.com/user-attachments/assets/f4bb57ae-2863-409a-83c6-6c61b5565738" />
+
+## for V10 go here https://gitlab.com/UniQMG/tetrio-plus/-/artifacts
+<img width="1367" height="239" alt="v10" src="https://github.com/user-attachments/assets/2d93f3c7-b12f-4755-8634-07fe593cb36b" />
+
+
 # go to releases
 ## you get the files there
 ### grab latest but if you want a pre-release grab that
