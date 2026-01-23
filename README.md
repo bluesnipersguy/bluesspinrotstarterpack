@@ -1,4 +1,4 @@
-![SFX Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOWNER%2FREPO%2Fgh-pages%2Fcoverage.json)
+![SFX Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FSweetPinkMilkTea%2Fbluesspinrotstarterpack%2Fgh-pages%2Fcoverage.json)
 
 
 

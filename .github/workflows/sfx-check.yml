@@ -33,7 +33,7 @@ jobs:
           {
             "schemaVersion": 1,
             "label": "SFX Coverage",
-            "message": "${PCT}%",
+            "message": "${PCT}% (${DST}/${SRC})",
             "color": "${COLOR}"
           }
           EOF
