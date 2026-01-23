@@ -1,0 +1,39 @@
+name: SFX Coverage
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Calculate coverage
+        run: |
+          SRC=$(ls unmoddedsfx | wc -l)
+          DST=$(ls sfx | wc -l)
+          PCT=$((100 * DST / SRC))
+
+          COLOR=red
+          if [ "$PCT" -ge 80 ]; then COLOR=green
+          elif [ "$PCT" -ge 50 ]; then COLOR=yellow
+          fi
+
+          mkdir -p badge
+          cat > badge/coverage.json <<EOF
+          {
+            "schemaVersion": 1,
+            "label": "SFX Coverage",
+            "message": "${PCT}%",
+            "color": "${COLOR}"
+          }
+          EOF
+
+      - name: Upload badge
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: badge
+          publish_branch: gh-pages

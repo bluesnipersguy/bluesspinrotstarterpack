@@ -1,3 +1,6 @@
+![SFX Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/<OWNER>/<REPO>/gh-pages/coverage.json)
+
+
 # blue's spinrot starter pack
 <img width="999" height="568" alt="NOWv4" src="https://github.com/user-attachments/assets/9920d3be-de3f-4de0-a6ed-dca3c5b3df0c" />
 
