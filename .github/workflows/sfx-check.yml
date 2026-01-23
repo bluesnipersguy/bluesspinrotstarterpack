@@ -16,8 +16,8 @@ jobs:
           set -Eeuo pipefail
           shopt -s inherit_errexit
 
-          SRC=$(ls unmoddedsfx | wc -l)
           DST=$(ls moddedsfx | wc -l)
+          SRC=$(($(ls unmoddedsfx | wc -l) + DST))
           if [ "$SRC" -eq 0 ]; then
             PCT=0
           else
