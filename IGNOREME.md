@@ -1,4 +1,5 @@
-# Bluesnipersguy's TETR.IO sfx pack
+# Shenzhia's In-depth Installation Tutorial
+
 
 ## About
 
