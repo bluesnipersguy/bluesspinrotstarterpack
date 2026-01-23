@@ -2,6 +2,7 @@ name: SFX Coverage
 
 on:
   push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -12,10 +13,16 @@ jobs:
 
       - name: Calculate coverage
         run: |
+          set -Eeuo pipefail
+          shopt -s inherit_errexit
+          
           SRC=$(ls unmoddedsfx | wc -l)
-          DST=$(ls sfx | wc -l)
-          PCT=$((100 * DST / SRC))
-
+          DST=$(ls moddedsfx | wc -l)
+          if [ "$SRC" -eq 0 ]; then
+            PCT=0
+          else
+            PCT=$((100 * DST / SRC))
+          fi
           COLOR=red
           if [ "$PCT" -ge 80 ]; then COLOR=green
           elif [ "$PCT" -ge 50 ]; then COLOR=yellow
