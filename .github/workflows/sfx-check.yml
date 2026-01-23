@@ -15,7 +15,7 @@ jobs:
         run: |
           set -Eeuo pipefail
           shopt -s inherit_errexit
-          
+
           SRC=$(ls unmoddedsfx | wc -l)
           DST=$(ls moddedsfx | wc -l)
           if [ "$SRC" -eq 0 ]; then
@@ -37,6 +37,10 @@ jobs:
             "color": "${COLOR}"
           }
           EOF
+
+          echo "::group::Generated badge JSON"
+          cat badge/coverage.json
+          echo "::endgroup::"
 
       - name: Upload badge
         uses: peaceiris/actions-gh-pages@v3

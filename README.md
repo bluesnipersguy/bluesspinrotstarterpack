@@ -1,4 +1,5 @@
-![SFX Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/<OWNER>/<REPO>/gh-pages/coverage.json)
+![SFX Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOWNER%2FREPO%2Fgh-pages%2Fcoverage.json)
+
 
 
 # blue's spinrot starter pack
