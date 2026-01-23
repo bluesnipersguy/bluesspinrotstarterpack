@@ -27,3 +27,8 @@
 ### grab latest but if you want a pre-release grab that
 <img width="999" height="568" alt="hahailovethisfella" src="https://github.com/user-attachments/assets/d479daa4-e014-4f1d-83b0-322ce927f926" />
 credit to koi for making like half of the images
+
+---
+
+> [!IMPORTANT]
+> If you need help, [here is a detailed Tutorial](/IGNOREME.md).
