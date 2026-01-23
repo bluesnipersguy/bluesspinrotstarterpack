@@ -31,4 +31,4 @@ credit to koi for making like half of the images
 ---
 
 > [!IMPORTANT]
-> If you need help, [here is a detailed Tutorial](/IGNOREME.md).
+> if you need more help, shenzhia has been kind enough to donate a tutorial for you to read [here](/IGNOREME.md)
